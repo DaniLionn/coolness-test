@@ -1,0 +1,15 @@
+div{
+
+    width:95%;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    background-color:#eeb663;
+    border: 5px solid #e2db1d;
+    padding: 5px;
+
+}
+body{
+    background-color: #e72340;
+}
