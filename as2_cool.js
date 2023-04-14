@@ -284,7 +284,7 @@ function keyPressed() {
   }  
 
    else if (questionNum === 2 && key == 'z')  {
-    coolnessScore += 5
+    coolnessScore += -5
     questionNum = 3
     
   }  
@@ -295,7 +295,7 @@ function keyPressed() {
   }   
 
    else if (questionNum === 2 && key == 'c')  {
-    coolnessScore += 8
+    coolnessScore += 3
     questionNum = 3
     
   }  
@@ -306,13 +306,13 @@ function keyPressed() {
     
   }  
    else if (questionNum === 3 && key == 'x')  {
-    coolnessScore += 7
+    coolnessScore += -7
     questionNum = 4
     
   }   
 
    else if (questionNum === 3 && key == 'c')  {
-    coolnessScore += 3
+    coolnessScore += -10
     questionNum = 4
     
   }  
@@ -396,5 +396,4 @@ function keyPressed() {
 function mousePressed() {
  console.log(mouseX, mouseY)
 }
-
 
