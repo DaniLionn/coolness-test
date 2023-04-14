@@ -217,7 +217,7 @@ setTimeout(() => {
           textSize(32) 
           let message = ""
 
-                    if (finalScore >= 0 && finalScore < 25) {
+                    if (finalScore < 25) {
             message = "DIRT"
           } else if (finalScore >= 25 && finalScore < 50) {
             message = "WOOD"
